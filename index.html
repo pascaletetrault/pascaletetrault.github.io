@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 33%; /* IE10 */
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 40px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: black;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+</style>
+
+
+<!-- <body> -->
+  <head>
+    <meta charset="utf-8"/>
+
+    <title> Pascale T | Portfolio </title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheets">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+   <link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheets'>
+
+    <script src="p5.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="coucou.js"></script>
+
+
+
+    <script src="js/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+  </head>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="nom col-lg-12 "id = "titre">
+        <p>P A S C A L E </p>
+        <p>T É T R A U L T</p>
+      </div>
+    </div>
+    <div class="row">
+      <ul>
+        <div class="topnav-centered" id="navbar">
+          <li><a href="ecritures.html"> écritures </a></li>
+          <li><a href="contact.html"> contact </a></li>
+          <li><a href="p_de_pertes.html"> portfolio </a></li>
+          <li><a href="apropos.html"> à propos</a></li>
+          <img src="contenu/main_1.png" id="bordures_1">
+        </div>
+      </ul>
+    </div>
+
+
+    <div class="row">
+      <div class="column">
+
+
+        <p><class="myDIV"><a href="p_de_pertes.html" "target=_blank"><img src="contenu/main/im1.jpg" style="width:100%"></a></p>
+
+        <p><a href="p_de_pertes.html" "target=_blank"><img src="contenu/main/im2.jpg" style="width:100%"></a></p>
+        <p><a href="p_regarder_dehors.html" "target=_blank"><img src="contenu/2025/o11_regarder_dehors.jpg" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/main/MARCEL_2.png" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/2025/arret_4_1.jpg" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/2025/arret_1_1.jpg" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/2025/arret_2_1.jpg" style="width:100%"></a></p>
+        <p><a href="p_ode.html" "target=_blank"><img src="contenu/main/ode_.png" style="width:100%"></a></p>
+
+
+      </div>
+
+      <div class="column">
+        <p><a href="p_de_pertes.html" "target=_blank"><img src="contenu/main/im5.jpg" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/2025/poeme_1.jpg" style="width:100%"></a></p>
+        <p><a href="p_regarder_dehors.html" "target=_blank"><img src="contenu/2025/o13_regarder_dehors.jpeg" style="width:100%"></a></p>
+        <p><a href="p_regarder_dehors.html" "target=_blank"><img src="contenu/2025/o14_regarder_dehors.jpeg" style="width:100%"></a></p>
+        <p><a href="p_regarder_dehors.html" "target=_blank"><img src="contenu/2025/o12_regarder_dehors.jpeg" style="width:100%"></a></p>
+        <p><a href="p_tourner_les_pages.html" "target=_blank"><img src="contenu/main/tourner.jpg" style="width:100%"></a></p>
+        <!-- <p><a href="" "target=_blank"><img src="contenu/2025/03_une_traversee.png" style="width:100%"></a></p> -->
+
+      </div>
+
+
+      <div class="column">
+
+        <p><a href="p_marcel.html"><img src="contenu/2025/poeme_4.jpg" style="width:100%"></a></p>
+        <p><a href="p_de_pertes.html" "target=_blank"><img src="contenu/main/im6.jpg" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/2025/marcel_d2.jpg" style="width:100%"></a></p>
+        <p><a href="p_restes.html" "target=_blank"><img src="contenu/2025/reste.png" style="width:100%"></a></p>
+        <p><a href="p_marcel.html" "target=_blank"><img src="contenu/2025/vickers.png" style="width:80%" class="center"></a></p>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- <img src="contenu/Pascale-4818.jpg" id="image_main" alt="De pertes et d'oublis"> -->
+
+<!-- OPTIONS DE MENU  -->
+  </head>
+<!-- </body> -->
+
+</html>

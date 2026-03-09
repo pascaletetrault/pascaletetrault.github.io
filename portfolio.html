@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title> coucou | contact </title>
+      <meta charset="utf-8"/>
+
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link rel="stylesheet" href="stylesheets/slidestyle.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+    <body>
+
+    <div class="container">        <div class="row">
+          <div class="nom col-lg-6" id="titre_p">
+              <p>PORTFOLIO</p>
+            </div>
+          </div>
+          <div class="row">
+          <div class="topnav-centered" id="navbar">
+            <li><a href="ecritures.html">écritures</a></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="apropos.html">à propos</a></li>
+          </div>
+
+          <div class="navbar-left" id="navbar">
+            <li><a href="index.html">accueil</a></li>
+          </div>
+        </div>
+
+        <img src="contenu/main_1.png" id="bordures">
+
+          <div class="row">
+            <div class="nom col-lg-6" id="sous-titre">
+                <p></p>
+            </div>
+
+        <div class="row">
+
+          <div class = "nom col-lg-7">
+
+            <section id="Wrapper">
+  	<div id="Slideshow">
+  		<h1>Manual Slideshow with Navigation Arrows</h1>
+  		<div id="Slider">
+  			<img src="contenu/main/im2.jpg"/>
+        <img src="contenu/main/im3.jpg"/>
+        <img src="contenu/main/im5.jpg"/>
+  		</div>
+  		<div id="Arrows">
+  			<i id="Prev" class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+  			<i id="Next" class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+  		</div>
+  		<h2>Click the arrows to progress the slideshow</h2>
+  	</div>
+  </section>
+            </div>
+
+
+
+
+
+        <div class = "nom col-lg-5">
+
+          <p id="description_2"> de pertes et d'oublis</p>
+          <p id="description"> En trois temps, « de pertes et d’oublis » met en récit la mutation des souvenirs et leur fragilité en regard au temps qui passe. L’oeuvre, en constante écriture (et réécriture) offre à lire des bribes de souvenirs vagues qui s’alternent puis s’effacent.</p>
+          <p id="description"> oeuvre présentée au Livart à l'automne 2019 lors de l'exposition collective Réminiscence</p>
+          <p id="description"> électronique sur mesure et poésie</p>
+
+          <a id="poemes" href="contenu/poemes.pdf"> Pour l'intégrale des poèmes présentés c'est ici </a>
+
+      </div>
+    </div>
+          </div>
+              </div>
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+<script> $("#Next").click(function(){
+	$("#Slider").append($("#Slider img:first-of-type"));
+});
+
+$("#Prev").click(function(){
+	$("#Slider").prepend($("#Slider img:last-of-type"));
+});
+</script>
+
+</body>
+</html>
